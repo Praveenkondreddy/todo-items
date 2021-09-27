@@ -1,0 +1,16 @@
+/* create a database
+CREATE DATABASE `nodemysql`;
+
+/*create a table
+CREATE TABLE `todoitm` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `task` varchar(200) DEFAULT NULL,
+  `completed` tinyint(1) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8mb4;
+
+/*database username and passwords
+  host: "localhost",
+  user: "root",
+  password: "Praveen@123",
+  database:"nodemysql"
